@@ -1,0 +1,25 @@
+{
+  "include_root_folders": [
+    "box",
+    "kernel",
+    "kernel_rpc",
+    "kernel_tcp",
+    "tvm_client",
+    "tvm_ui",
+    "repo_ui"
+  ],
+  "ignore_dir_names": [
+    ".git",
+    "__pycache__",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    "venv",
+    "node_modules",
+    "dist",
+    "build",
+    "docs",
+    "development"
+  ]
+}
