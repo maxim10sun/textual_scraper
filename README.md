@@ -1,16 +1,16 @@
-# repo_ui — Static UI Inspection & Navigation Tool
+# repo_ui — Static UI Inspection & Navigation Tool (Textual)
 
-`repo_ui` is a **static inspection and navigation tool** for UI-heavy Python repositories.
+`repo_ui` is a **static inspection and navigation tool** for **Textual / Textualize-style Python UI repositories**.
 
-It extracts **UI structure**, **identity**, and **styling references** without executing code, and exposes them through a **read-only query interface** designed for deterministic, evidence-based navigation.
+It inspects Textual UIs **without executing code**, extracting **UI structure**, **identity (`id=`)**, and **styling references** (`.tcss`, `DEFAULT_CSS`) and exposes them through a **read-only query interface** designed for deterministic, evidence-based navigation.
 
 This tool is built so both **humans and LLM agents** can answer questions like:
 
-* *What UI exists in this repo?*
-* *What IDs and layouts are defined?*
-* *Where is this UI element styled?*
-* *What breaks if I change this screen?*
-* *Where should I edit CSS for this thing?*
+* *What Textual UI exists in this repo?*
+* *What widget IDs and layouts are defined?*
+* *Where is this UI element styled (CSS or inline)?*
+* *What might be impacted if I change this screen?*
+* *Where should I edit styling for this widget?*
 
 ## Core Design Principles
 
